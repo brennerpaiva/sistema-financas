@@ -1,0 +1,21 @@
+{
+  "extends": ["react-app", "plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": ["*.js", "*.jsx", "*.ts", "*.tsx"],
+      "rules": {
+        "prettier/prettier": ["error"]
+      }
+    }
+  ]
+  
+}
