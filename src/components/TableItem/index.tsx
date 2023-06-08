@@ -1,6 +1,6 @@
 import * as C from './styles';
 import { Item } from '../../types/Item';
-import { formatDate } from '../../helpers/dateFilter';
+import { formatCurrentMonth, formatDate } from '../../helpers/dateFilter';
 import { categories } from '../../data/categories';
 
 type Props = {
