@@ -2,27 +2,27 @@ import { Item } from '../types/Item';
 
 export const items: Item[] = [
   {
-    date: new Date(),
+    date: new Date(2023, 5, 22),
     category: 'food',
-    title: 'BurguerKing',
+    title: 'McDonalds',
     value: 32.12,
   },
   {
-    date: new Date(),
+    date: new Date(2023, 6, 5),
     category: 'food',
-    title: 'MCDonalds',
-    value: 28.99,
+    title: 'Burger King',
+    value: 28,
   },
   {
-    date: new Date(),
+    date: new Date(2023, 6, 22),
     category: 'rent',
     title: 'Aluguel Apt',
     value: 2300,
   },
   {
-    date: new Date(),
+    date: new Date(2023, 6, 22),
     category: 'salary',
-    title: 'Salário Teste',
-    value: 2300,
+    title: 'Salário ACME',
+    value: 4500,
   },
 ];
